@@ -1,0 +1,6 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore build artifacts
+
+# Ignore OS-specific files
