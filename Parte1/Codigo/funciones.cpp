@@ -8,7 +8,7 @@
 #include <cstdlib>
 using namespace std;
 
-#include "Funciones.h"
+#include "funciones.h"
 
 vector<string> parseLine(const string &line, char delimiter) {
     vector<string> tokens;

@@ -8,7 +8,7 @@
 #include <cstdlib>
 using namespace std;
 
-#include "Funciones.h"
+#include "funciones.h"
 
 int main() {
     string line;
@@ -25,16 +25,17 @@ int main() {
             break;
         }
 
-        vector<string> pipeParts = parseLine(line, '|');
+        vector<string> pipeLines = parseLine(line, '|');
         vector<vector<string>> commands;
 
-        for (auto &part : pipeParts) {
-            commands.push_back(parseLine(part, ' '));
+        for (auto &pipe : pipeLines) {
+            commands.push_back(parseLine(pipe, ' '));
         }
 
         if (commands.size() == 1) {
             executeNormalCommand(commands[0]);
-        } else {
+        } 
+        else {
             executePipelineCommand(commands);
         }
     }
