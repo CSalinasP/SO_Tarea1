@@ -1,4 +1,0 @@
-Archivo txt para testear
-este codigo
-para la tarea 1
-del ramo Sistemas Operativos

@@ -1,0 +1,10 @@
+Comando usado: 
+echo hola
+Respuesta: 
+hola
+Tiempo real: 0.003499 segundos
+Tiempo de usuario: 0.011045 segundos
+Tiempo de sistema: 0.014462 segundos
+Máximo resident set size: 2176 KB
+
+
