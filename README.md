@@ -25,7 +25,7 @@ Repositorio que contiene la tarea 1 para el ramo "Sistemas Operativos".
 
     El programa reconocerá cuando se usa tiempoMaximo o no, y reconocerá cuando se usa ejec o ejecsave.
 
-**Notas**
+**Notas:**
 
     El ejecutable "MiShell.exe" se compiló usando: "g++ main.cpp funciones.cpp -o MiShell.exe".
 
