@@ -136,7 +136,7 @@ void executeMiprof(vector<string> command) {
         double real_time = (end.tv_sec - start.tv_sec) + (end.tv_usec - start.tv_usec) / 1e6;
         double user_time = usage.ru_utime.tv_sec + usage.ru_utime.tv_usec / 1e6;
         double sys_time = usage.ru_stime.tv_sec + usage.ru_stime.tv_usec / 1e6;
-        long max_rss = usage.ru_maxrss; // in kilobytes
+        long max_rss = usage.ru_maxrss; 
 
         cout << "Tiempo real: " << real_time << " segundos" << endl;
         cout << "Tiempo de usuario: " << user_time << " segundos" << endl;
