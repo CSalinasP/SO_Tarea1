@@ -19,9 +19,9 @@ Repositorio que contiene la tarea 1 para el ramo "Sistemas Operativos".
     
     Hay 3 formas de usar el programa:
 
-    1) **miprof ejec <comando> <args>**
-    2) **miprof ejec <tiempoMaximo> <comando> <args>**
-    3) **miprof ejecsave <archivo> <comando> <args>**
+    1) "miprof ejec <comando> <args>"
+    2) "miprof ejec <tiempoMaximo> <comando> <args>"
+    3) "miprof ejecsave <archivo> <comando> <args>"
 
     El programa reconocerá cuando se usa tiempoMaximo o no, y reconocerá cuando se usa ejec o ejecsave.
     "ejecsave + tiempoMaximo" no está implementado ya que no lo pide el enunciado de la tarea.
